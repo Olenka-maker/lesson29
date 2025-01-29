@@ -29,5 +29,5 @@ function intr(city, age) {
 intr.apply(user, ['Lviv', 15])
 
 //bind
-const nHello = hello.bind(user);
+let nHello = hello.bind(user);
 nHello()
